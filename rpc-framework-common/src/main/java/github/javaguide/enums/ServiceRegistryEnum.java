@@ -4,14 +4,12 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 /**
- * @Author xiaobiaoxu
- * @Date 2023年02月24日 15:30
+ * @Author xiaobiaoxu @Date 2023年02月24日 15:30
  */
 @AllArgsConstructor
 @Getter
 public enum ServiceRegistryEnum {
+  ZK("zk");
 
-    ZK("zk");
-
-    private final String name;
+  private final String name;
 }

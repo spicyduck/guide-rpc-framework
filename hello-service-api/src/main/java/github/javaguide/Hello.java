@@ -20,6 +20,6 @@ import java.io.Serializable;
 @Builder
 @ToString
 public class Hello implements Serializable {
-    private String message;
-    private String description;
+  private String message;
+  private String description;
 }
